@@ -16,5 +16,5 @@ docker-compose start
 ## mysql
 ```shell
 # connect mysql
-docker exec -it hakiba-mysql mysql -u root -D hakiba_db
+docker exec -it hakiba-mysql mysql -u hakiba_user -D hakiba_db -p
 ```
