@@ -10,6 +10,9 @@ docker-compose up -d
 docker-compose stop
 # Start service
 docker-compose start
+
+# Delete service
+docker-compose down
 ```
 
 # Images
